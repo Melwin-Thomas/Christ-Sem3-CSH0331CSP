@@ -33,7 +33,7 @@ This guide explains how to install **Oracle VirtualBox** and run **Kali Linux** 
 
 ---
 
-## 2️) Download Kali Linux ISO
+## 2️) Download Kali Linux 
 
 1. Visit the [official Kali Linux download page](kali.org).
 2. Click the Large, box which says *Download*.
