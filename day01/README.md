@@ -1,59 +1,65 @@
-# Installing VirtualBox and Kali Linux
+#  Introduction to Cybersecurity -
 
-This guide explains how to install **Oracle VirtualBox** and run **Kali Linux** as a virtual machine on Windows, so lets get into it :)
+Welcome to a beginner-friendly guide to cybersecurity! 
+---
+
+##  1. Different Types of Cyber-Profeesionals:
+
+Cybersecurity professionals typically work in one of three core teams:
+
+###  Red Team – The Offensive Experts
+- Focuses on simulating real cyberattacks to identify weaknesses  
+- Mimics the behavior of malicious hackers  
+- Helps organizations find and fix security gaps before real attackers do
+
+###  Blue Team – The Defenders
+- Responsible for defending networks and systems from threats  
+- Detects, responds to, and prevents attacks in real time  
+- Uses tools such as antivirus software, intrusion detection systems, and firewalls
+
+###  Purple Team – The Bridge Between Red and Blue
+- Coordinates efforts between Red and Blue teams  
+- Encourages collaboration to improve both attack simulation and defense tactics  
+- Ensures continuous improvement in an organization’s security posture
 
 ---
 
-## Things to make sure:
+##  2. Common Types of Cyber Threats
 
-- A PC with at least:
-  - **4 GB RAM** (8 GB recommended)
-  - **30 GB free disk space**
-  - **64-bit processor with virtualization enabled** (can be enables in BIOS)
-    
----
+These are some of the most frequent methods attackers use to breach systems or steal information:
 
-## 1️) Install VirtualBox
+###  Phishing
+- Scams that trick users into revealing sensitive data (like passwords) by pretending to be trustworthy sources
 
-##   i) Download VirtualBox
+###  Ransomware
+- A malicious program that locks your files and demands a ransom to unlock them
 
--  Go to the [official VirtualBox website](virtualbox.org).
--  Click **Download**.
--  Choose your OS (mine is windows):
-   - Windows hosts → `.exe`
+###  Malware
+- Any software designed to damage or exploit systems, including viruses, worms, spyware, and trojans
 
-##  ii) Extraction
+###  Social Engineering
+- Manipulating people into giving up confidential details by using deception or impersonation
 
-- Extract the file using Winrar, or use 7zip (it is more professional that way;)
+### 🕵 Man-in-the-Middle (MitM) Attack
+- When an attacker secretly intercepts and possibly alters the communication between two parties
 
-## iii) Install VirtualBox
-
-- Run the `.exe` file and follow the installer instructions.
-- After installation, launch VirtualBox to make sure it's working.
+###  Zero-Day Exploits
+- Attacks that target previously unknown vulnerabilities in software, for which no patch or fix yet exists
 
 ---
 
-## 2️) Download Kali Linux 
+##  3. Understanding Hacking
 
-1. Visit the [official Kali Linux download page](kali.org).
-2. Click the Large, box which says *Download*.
-3. Then you will enter a page which asks you to choose a platform, choose **Virtual Machines**.
-4. Now you will see multiple options, choose **VirtualBox**, click on the Download icon.
-5. Wait for the download to be completed (it may take some time, it is 3.3gbs duh).
-6. After Downlaoding the file, Install it. Follow the on-screen instructions.
+**Hacking** refers to gaining unauthorized access to digital systems. Hackers can be classified into different categories based on their intentions:
+
+- **White Hat Hackers**: Ethical hackers who test and improve security legally  
+- **Black Hat Hackers**: Criminal hackers who break into systems to cause harm or steal data  
+- **Gray Hat Hackers**: Operate in a legal gray area — not always malicious but not always authorized
+
+Ethical hacking plays a critical role in improving cybersecurity defenses by identifying problems before real threats do.
 
 ---
 
-## 3️) Create a Kali Linux Virtual Machine
+##  Wrapping Up
 
-1. When you open VirtualBox now you might see Kali on the top leftside of the dashboard of your VirtualBox.
-2. **Open VirtualBox**, click **New**.
-3. **Name**: `Kali Linux`  
-   **Type**: `Linux`  
-   **Version**: `Debian (64-bit)`
-4. **Memory size**: Allocate at least **2048 MB** (4 gb is recommended).
-5. **Core**: Give it atleast 2 cores.
-6. Follow the remaining insctructions as shown there.
----
-
-## There you go, you have now instlled Kali in your Virtual Box.
+This introduction gave you a high-level overview of cybersecurity roles, threats, and hacker types. Whether you're looking to stay safe online or pursue a future in cybersecurity, this is a solid first step!
