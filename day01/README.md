@@ -40,7 +40,7 @@ These are some of the most frequent methods attackers use to breach systems or s
 ###  Social Engineering
 - Manipulating people into giving up confidential details by using deception or impersonation
 
-### 🕵 Man-in-the-Middle (MitM) Attack
+###  Man-in-the-Middle (MitM) Attack
 - When an attacker secretly intercepts and possibly alters the communication between two parties
 
 ###  Zero-Day Exploits
