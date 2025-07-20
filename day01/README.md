@@ -40,6 +40,7 @@ This guide explains how to install **Oracle VirtualBox** and run **Kali Linux** 
 3. Then you will enter a page which asks you to choose a platform, choose **Virtual Machines**.
 4. Now you will see multiple options, choose **VirtualBox**, click on the Download icon.
 5. Wait for the download to be completed (it may take some time, it is 3.3gbs duh).
+6. After Downlaoding the file, Install it. Follow the on-screen instructions.
 
 ---
 
