@@ -1,0 +1,15 @@
+# Ethical Hacking Notes
+
+This document contains notes on basic concepts and commands useful for ethical hacking, especially in Linux-based environments like Kali Linux.
+
+---
+
+## A. Obfuscation
+
+**Obfuscation** is the practice of intentionally making something harder to understand or interpret — usually code, data, or communication — to protect it from attackers.
+
+### Example in Python
+
+```python
+a = "".join([chr(i) for i in [97, 100, 109, 105, 110, 49, 50, 51]])
+print("The password is:", a)
